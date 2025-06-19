@@ -35,32 +35,38 @@ cd inkspire-story-generator
 python -m venv venv
 source venv/bin/activate
 
-3. Install Dependencies
+### 3. Install Dependencies
 pip install -r requirements.txt
 Run the App with: streamlit run app.py
 Visit http://localhost:8501 in your browser to use the app.
 
-Model Information
+---
+
+## Model Information
 This app uses the TinyLlama/TinyLlama-1.1B-Chat-v1.0 model via the Hugging Face transformers library.
 The model (~2GB) is downloaded on first use. Please ensure you're connected to the internet.
 
-Example Prompts
+---
+
+## Example Prompts
 "A robot discovers human emotions."
 
 "A time traveler visits ancient Egypt."
 
 "A child finds a portal to a secret world."
 
-Troubleshooting
-Model won’t load? Make sure you're online the first time you run the app.
+---
 
-Slow performance? This model runs best with a GPU. CPU will work, just slower.
+## Troubleshooting
+- Model won’t load? Make sure you're online the first time you run the app.
 
-Upgrade tools (if needed):
+- Slow performance? This model runs best with a GPU. CPU will work, just slower.
 
-pip install --upgrade pip setuptools
+- Upgrade tools (if needed): pip install --upgrade pip setuptools
 
-Credits
-TinyLlama Model
-Streamlit
-Transformers by Hugging Face
+---
+
+## Credits
+- TinyLlama Model
+- Streamlit
+- Transformers by Hugging Face
