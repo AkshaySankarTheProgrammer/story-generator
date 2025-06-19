@@ -17,9 +17,9 @@ Enter a prompt, and InkSpire will craft a vivid, imaginative short story using t
 
 ## Project Structure
 
-inkspire-story-generator/
-├── app.py (Streamlit app)
-├── requirements.txt (Python dependencies)
+inkspire-story-generator/\n
+├── app.py # Streamlit app\n
+├── requirements.txt # Python dependencies\n
 └── README.md # This file
 
 ---
@@ -31,12 +31,11 @@ inkspire-story-generator/
 git clone https://github.com/your-username/inkspire-story-generator.git
 cd inkspire-story-generator
 
-2. (Optional) Create a Virtual Environment
+### 2. (Optional) Create a Virtual Environment
 python -m venv venv
 source venv/bin/activate
-  # On Windows: venv\Scripts\activate
 
-4. Install Dependencies
+3. Install Dependencies
 pip install -r requirements.txt
 Run the App with: streamlit run app.py
 Visit http://localhost:8501 in your browser to use the app.
