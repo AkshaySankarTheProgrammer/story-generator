@@ -17,10 +17,10 @@ Enter a prompt, and InkSpire will craft a vivid, imaginative short story using t
 
 ## Project Structure
 
-inkspire-story-generator/\n
-├── app.py # Streamlit app\n
-├── requirements.txt # Python dependencies\n
-└── README.md # This file
+inkspire-story-generator/
+- ├── app.py # Streamlit app
+- ├── requirements.txt # Python dependencies
+- └── README.md # This file
 
 ---
 
